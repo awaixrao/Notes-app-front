@@ -5,7 +5,7 @@ import { getToken } from "../utilis";
 
 export const  httpClient = axios.create({
   
-    baseURL: 'http://localhost:3002',
+    baseURL: 'https://backend-ten-taupe-86.vercel.app/',
     timeout: 5000,
   });
 
